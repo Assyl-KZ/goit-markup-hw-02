@@ -15,6 +15,7 @@ body {
 
 .list {
     list-style: none;
+    text-decoration: none;
 }
 .link {
     text-decoration: none;
@@ -62,10 +63,58 @@ body {
 .title {
         font-family: var(--main_font);
         font-size: 44px;
-        font-style: 900;
+        font-weight: 900;
         line-height: 60px;
         letter-spacing: 6%; 
         color: #FFFFFFE5;
     }
 
-/* ===FOOTER=== */
+/* ======================================NAVIGATION===================================== */
+.button_item {
+    background-color: var(--main_text_color_theme_light);
+    font-family: var(--main_font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 3%;
+    cursor: pointer;
+    background: rgba(245, 244, 250, 1);
+}
+.button_item:hover,
+.button_item:focus {
+  background: var(--accent_color);
+  color: var(--main_text_color_theme_light);
+}
+/* =======================================PROJECTS====================================== */
+.project_title {
+    color: var(--main_text_color_theme_dark);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 6%;
+}
+.project_description {
+    color: var(--secondary_text_color_theme-dark);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 3%;
+}
+/* ========================================FOOTER======================================== */
+.footer {
+   background-color: rgba(47, 48, 58, 1);
+}
+.logo_studio {
+    color: var(--main_text_color_theme_light);
+}
+.address {
+    font-family: var(--main_font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1,71;
+    font-style: normal;
+}
+.detai_adress {
+    color: var(--main_text_color_theme_light);
+}
