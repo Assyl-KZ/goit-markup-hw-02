@@ -1,0 +1,71 @@
+:root {
+    --main_font: 'Roboto', sans-serif;
+    --secondary_font: 'Raleway', sans-serif;
+    --main_text_color_theme_dark: rgba(33, 33, 33, 1);
+    --secondary_text_color_theme-dark: rgba(117, 117, 117, 1);
+    --main_text_color_theme_light: rgba(255, 255, 255, 1);
+    --secondary_text_color_theme_light: rgba(255, 255, 255, 0.6);
+    --accent_color: rgba(33, 150, 243, 1);
+}
+body {
+    background-color: #FFFFFFE5;
+    font-family: var(--main_font);
+    color: var(--main_text_color_theme_dark);
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* ====HEADER==== */
+
+.site_nav_logo_img {
+    font-family: var(--secondary_font); 
+    font-style: bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: var(--main_text_color_theme_dark);
+}
+.logo_web {
+    color: var(--accent_color);
+}
+.menu_list_item {
+    font-family: var(--main_font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 2%;
+    color: var(--main_text_color_theme_dark);
+}
+.menu_list_item:hover,
+.menu_list_item:focus {
+    color: var(--accent_color);
+} 
+.site_nav_contact {
+        font-family: var(--main_font);
+        font-size: 14px;
+        font-style: 500;
+        line-height: 16px;
+        letter-spacing: 2%;
+}
+.contact {
+    color:  var(--secondary_text_color_theme-dark);
+}
+.contact:hover,
+.contact:focus {
+    color: var(--accent_color);
+}
+.title {
+        font-family: var(--main_font);
+        font-size: 44px;
+        font-style: 900;
+        line-height: 60px;
+        letter-spacing: 6%; 
+        color: #FFFFFFE5;
+    }
+
+/* ===FOOTER=== */
