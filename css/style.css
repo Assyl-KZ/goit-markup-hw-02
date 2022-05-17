@@ -122,7 +122,7 @@ body {
 }
 /* ======================================PORTFOLIO NAVIGATION===================================== */
 .button_item {
-    background-color: var(--main_text_color_theme_light);
+    background-color: rgba(33, 150, 243, 1);
     font-family: var(--main_font);
     cursor: pointer;
     background: rgba(245, 244, 250, 1);
@@ -137,6 +137,10 @@ body {
 .button_item:focus {
   background: var(--accent_color);
   color: var(--main_text_color_theme_light);
+}
+.button{
+    color: var(--secondary_text_color_theme_light);
+    background: var(--accent_color);
 }
 /* =======================================PROJECTS====================================== */
 .project_title {
