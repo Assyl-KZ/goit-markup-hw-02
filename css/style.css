@@ -157,6 +157,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent_color);
+    color: var(--main_text_color_theme_light)
 }
 .hero_button:hover,
 .hero_button:focus {
