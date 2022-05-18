@@ -54,11 +54,18 @@ body {
         font-size: 14px;
         font-weight: 500;
         line-height: 16px;
-        letter-spacing: 0.02em%;
+        letter-spacing: 0.02em;
 
 }
 .contact {
     color:  var(--secondary_text_color_theme-dark);
+}
+.contact_footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
 }
 .contact:hover,
 .contact:focus {
@@ -74,7 +81,7 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFFE5;
+        color: rgba(255, 255, 255, 1);
     }
 .hang_title {
     font-weight: 700;
@@ -140,8 +147,23 @@ body {
 }
 .button{
     color: var(--secondary_text_color_theme_light);
-    background: var(--accent_color);
 }
+.hero_button {
+    font-family: var(--main_font)
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent_color);
+}
+.hero_button:hover,
+.hero_button:focus {
+    background-color: rgba(24, 140, 232, 1);
+    color: var(--main_text_color_theme_light)
+}
+
 /* =======================================PROJECTS====================================== */
 .project_title {
     color: var(--main_text_color_theme_dark);
